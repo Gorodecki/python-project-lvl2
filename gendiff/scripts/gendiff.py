@@ -13,7 +13,6 @@ def generate_diff(first_file: str, second_file: str) -> str:
     Returns:
         str: [Difference]
     """
-    diff = ''
     first_file = Path(first_file)
     second_file = Path(second_file)
 
